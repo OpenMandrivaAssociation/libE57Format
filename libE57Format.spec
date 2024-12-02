@@ -9,9 +9,7 @@ Release:	1
 License:	GPL
 Group:		System/Libraries
 URL:		https://github.com/asmaloney/libE57Format
-Source0:	https://github.com/asmaloney/libE57Format/archive/v%{version}/%{name}-%{version}.tar.gz
-#Patch0:		libE57Format-3.1.1-set_soname.patch
-#Patch1:		libE57Format-3.1.1-fix_cmake_path.patch
+Source0:	https://github.com/asmaloney/libE57Format/archive/v%{version}/libE57Format-%{version}.tar.gz
 BuildRequires: cmake ninja
 BuildRequires: ccache
 BuildRequires: pkgconfig(xerces-c)
