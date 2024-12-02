@@ -4,14 +4,14 @@
 
 Summary:	Library for reading and writing the E57 file format
 Name:		libE57Format
-Version:	3.1.1
+Version:	3.2.0
 Release:	1
 License:	GPL
 Group:		System/Libraries
 URL:		https://github.com/asmaloney/libE57Format
 Source0:	https://github.com/asmaloney/libE57Format/archive/v%{version}/%{name}-%{version}.tar.gz
-Patch0:		libE57Format-3.1.1-set_soname.patch
-Patch1:		libE57Format-3.1.1-fix_cmake_path.patch
+#Patch0:		libE57Format-3.1.1-set_soname.patch
+#Patch1:		libE57Format-3.1.1-fix_cmake_path.patch
 BuildRequires: cmake ninja
 BuildRequires: ccache
 BuildRequires: pkgconfig(xerces-c)
@@ -54,7 +54,7 @@ Development files (Headers etc.) for %{name}.
 %files -n %{devname}
 %{_includedir}/*
 %{_libdir}/*.so
-%{_datadir}/cmake/E57Format/*
+%{_libdir}/cmake/E57Format/*
 #{_libdir}/pkgconfig/*
 
 #----------------------------------------------------------------------
