@@ -4,8 +4,8 @@
 
 Summary:	Library for reading and writing the E57 file format
 Name:		libE57Format
-Version:	3.2.0
-Release:	2
+Version:	3.3.0
+Release:	1
 License:	GPL
 Group:		System/Libraries
 URL:		https://github.com/asmaloney/libE57Format
